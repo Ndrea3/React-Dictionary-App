@@ -11,7 +11,7 @@ export default function Search(){
 
   function search(event) {
     event.preventDefault();
-    alert(`Searching...${keyword}`);
+    //alert(`Searching...${keyword}`);
   
 
   let apiURL=`https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
