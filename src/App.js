@@ -1,14 +1,23 @@
 
 import './App.css';
-import dictionary from './dictionary.png'
+import logo from './logo.png'
+import DictionarySearch from './DictionarySearch'
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={dictionary} alt="dictionary" className=" logo image-fluid"/>{" "}
-        Dictionary App
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <img src={logo} alt="dictionary logo" className=" logo image-fluid" />{" "}
+          Dictionary App
+        </header>
+        <main>
+          <DictionarySearch />
+        </main>
+        <footer className="footer">
+          <small>Coded by Andrea Simmons and is open-sourced!</small>
+        </footer>
+      </div>
     </div>
   );
 }
