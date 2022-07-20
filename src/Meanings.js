@@ -4,7 +4,7 @@ import Synonyms from "./Synonyms"
 
 
 export default function Meanings(props){
-    console.log(props.meanings);
+    //console.log(props.meanings);
     return (
       <div className="Meanings">
         <h4>{props.meanings.partOfSpeech}</h4>
