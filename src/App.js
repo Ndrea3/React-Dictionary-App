@@ -13,7 +13,7 @@ export default function App() {
           Dictionary App
         </header>
         <main>
-          <DictionarySearch />
+          <DictionarySearch  defaultKeyword="Dictionary"/>
         </main>
         <footer className="footer">
           <small>Coded by Andrea Simmons and is open-sourced!</small>

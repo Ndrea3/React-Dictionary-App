@@ -1,6 +1,7 @@
 import React from "react";
 import Meanings from './Meanings'
 import Phonetics from "./Phonetics";
+import './SearchResults.css'
 
 export default function SearchResults(props){
     console.log(props.results);
