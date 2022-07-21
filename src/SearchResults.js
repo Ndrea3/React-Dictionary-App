@@ -17,13 +17,16 @@ export default function SearchResults(props){
                 );
               })}
             </section>
-            {props.results.meanings.map(function (meanings, index) {
-              return (
-                <section key={index}>
-                  <Meanings meanings={meanings} />
-                </section>
-              );
-            })}
+            <br/>
+           
+              {props.results.meanings.map(function (meanings, index) {
+                return (
+                  <section key={index}>
+                    <Meanings meanings={meanings} />
+                  </section>
+                );
+              })}
+         
           </div>
         );
     } else {

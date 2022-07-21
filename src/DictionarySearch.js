@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import axios from "axios";
 import SearchResults from './SearchResults';
+import "./DictionarySearch.css";
 
 export default function Search(){
   let [keyword, setKeyword] = useState("");
@@ -26,7 +27,7 @@ export default function Search(){
   }
 
   return (
-    <div className="Dictionary">
+    <div className="dictionary-search">
       <section>
         <form onSubmit={search}>
           <input
@@ -36,7 +37,7 @@ export default function Search(){
             autoFocus={true}
           />
         </form>
-      </section>
+      </section> <br/>
       <SearchResults results={results} />
     </div>
   );
