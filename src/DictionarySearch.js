@@ -38,10 +38,11 @@ export default function Search(props){
   return (
     <div className="dictionary-search">
       <section>
+        <h3>What are you looking for?</h3>
         <form onSubmit={handleSubmit}>
           <input
             type="search"
-            placeholder="Search a word..."
+            defaultValue={props.defaultKeyword}
             onChange={handleKeywordChange}
             autoFocus={true}
           />

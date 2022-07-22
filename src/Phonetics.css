@@ -1,3 +1,25 @@
 a {
     color: blueviolet;
+    border: 1px solid blueviolet;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius:15px;
+    transition: all 150ms ease-in-out;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+a:hover{
+    background: rgb(127, 2, 127);
+    color:white;
+}
+
+.Phonetic-Text{
+    height: 35px;
+    margin: 5px 20px;
+   }
+.phontext{
+    font-weight: bold;
+    opacity:0.5;
+    padding:10px;
 }

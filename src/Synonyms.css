@@ -1,0 +1,24 @@
+.synonyms{
+    padding:  10px;
+}
+.likeWords{
+    display: inline-block;
+    color:black;
+    padding:7px ;
+    margin:3px;
+    border: 1px solid rgb(166, 121, 5);
+    border-radius: 15px 15px;
+    transition: all 150ms ease-in-out;
+    font-size: small;
+    font-weight: bold;
+   
+}
+
+.likeWords:hover{
+    background-color: darkgoldenrod;
+    color: white;
+}
+ul{
+     color: darkgoldenrod;
+}
+

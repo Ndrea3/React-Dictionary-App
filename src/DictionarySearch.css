@@ -1,9 +1,9 @@
 .dictionary-search section {
     background:white;
-    padding: 40px;
+    padding: 50px;
     border-radius: 30px;
-    box-shadow: 3 30px 30px rgb(0, 0,0 / 10%);
-    margin: 20px 0;
+    margin: 20px ;
+    box-shadow: 5px 5px  rgba(0, 0, 255, .1);
 }
 .dictionary-search input{
     width: 50%;
@@ -17,4 +17,8 @@
     margin-top: 5px;
     font-size: small;
    
+}
+h3{
+    font-size: 25px;
+    margin-bottom: 30px;
 }
