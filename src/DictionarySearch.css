@@ -12,13 +12,14 @@
     border-radius:15px;
 }
 .suggestions{
-    color:rgb(149, 145, 145);
+    color:goldenrod;
     padding-left: 10px;
     margin-top: 5px;
-    font-size: small;
+    font-size: small;;
    
 }
 h3{
     font-size: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
+    color: darkorchid;
 }

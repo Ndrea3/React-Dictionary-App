@@ -4,7 +4,6 @@ import Phonetics from "./Phonetics";
 import './SearchResults.css'
 
 export default function SearchResults(props){
-    console.log(props.results);
     if(props.results){
         return (
           <div className="Results">
@@ -17,17 +16,16 @@ export default function SearchResults(props){
                   </div>
                 );
               })}
-            </section>
-            <br/>
-           
-              {props.results.meanings.map(function (meanings, index) {
-                return (
-                  <section key={index}>
-                    <Meanings meanings={meanings} />
-                  </section>
-                );
-              })}
          
+            </section>
+
+            {props.results.meanings.map(function (meanings, index) {
+              return (
+                <section key={index}>
+                  <Meanings meanings={meanings} />
+                </section>
+              );
+            })}
           </div>
         );
     } else {

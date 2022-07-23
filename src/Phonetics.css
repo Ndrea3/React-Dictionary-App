@@ -1,4 +1,4 @@
-a {
+.audio {
     color: blueviolet;
     border: 1px solid blueviolet;
     text-decoration: none;
@@ -9,7 +9,7 @@ a {
     font-weight: bold;
 }
 
-a:hover{
+.audio:hover{
     background: rgb(127, 2, 127);
     color:white;
 }
