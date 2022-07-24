@@ -13,10 +13,17 @@ export default function App() {
           Dictionary App
         </header>
         <main>
-          <DictionarySearch  defaultKeyword="Dictionary"/>
+          <DictionarySearch defaultKeyword="Dictionary" />
         </main>
         <footer className="footer">
-          <small>Coded by Andrea Simmons and is open-sourced!</small>
+          <small>
+            <strong>
+              Coded by Andrea Simmons and is{" "}
+              <a href="https://github.com/Ndrea3/React-Dictionary-App.git" rel="noreferrer" target="_blank">
+                open-sourced!
+              </a>
+            </strong>
+          </small>
         </footer>
       </div>
     </div>
